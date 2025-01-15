@@ -27,7 +27,7 @@ Data adalah aset yang sangat berharga bagi perusahaan dalam dunia digital saat i
 
 #### **3. Alat AI untuk Analisis Data**
 
-Ada berbagai alat berbasis AI yang dapat digunakan untuk analisis data dan pengambilan keputusan, salah satunya adalah **Google Cloud AutoML**. Alat ini menyediakan platform untuk mengembangkan model pembelajaran mesin tanpa perlu menulis kode secara mendalam, membuatnya sangat berguna bagi bisnis yang ingin memanfaatkan AI tanpa keahlian teknis yang mendalam.
+Ada berbagai alat berbasis AI yang dapat digunakan untuk analisis data dan pengambilan keputusan, salah satunya adalah **Qlik Analyticss**. adalah platform analitik data yang memungkinkan pengguna untuk menggabungkan kecerdasan bisnis (BI) dan kecerdasan buatan (AI) dalam satu alat
 
 ---
 
