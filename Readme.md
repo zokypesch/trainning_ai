@@ -15,7 +15,6 @@ Memahami dasar-dasar AI dan penerapannya dalam bisnis. Mengeksplorasi berbagai a
 
 **Praktik:**
 - Mengeksplorasi [ChatGPT](https://chat.openai.com/) untuk otomatisasi dukungan pelanggan. Peserta mensimulasikan pertanyaan dan respons pelanggan menggunakan alat ini.
-- Menggunakan [Google AI](https://ai.google/) untuk mengeksplorasi analisis sentimen untuk umpan balik pemasaran.
 
 ---
 
