@@ -125,25 +125,7 @@ Dalam konteks bisnis, **ChatGPT** dapat dimanfaatkan untuk berbagai keperluan, m
 
 **Langkah-langkah untuk menggunakan ChatGPT dalam beberapa aplikasi bisnis utama:**
 
-### **A. ChatGPT untuk Layanan Pelanggan**
-
-1. **Membangun Chatbot Layanan Pelanggan**
-   - ChatGPT dapat digunakan untuk membuat chatbot yang dapat berinteraksi dengan pelanggan di situs web atau aplikasi bisnis. Pengguna dapat bertanya tentang produk, layanan, status pesanan, dan lainnya.
-   
-   **Contoh Penggunaan:**
-   - **Pelanggan:** "Apa jam operasional toko Anda?"
-   - **ChatGPT:** "Toko kami buka setiap hari dari jam 9 pagi hingga 6 sore. Ada yang bisa saya bantu lagi?"
-   
-2. **Tugas Chatbot:**
-   - Menjawab pertanyaan umum (seperti jam buka, informasi produk, dll).
-   - Menangani keluhan atau isu sederhana dengan memberikan solusi cepat.
-   - Mengarahkan pelanggan kepada manusia apabila masalah lebih kompleks.
-
-**Langkah Praktik:**
-   - **Buat skenario percakapan** di mana pelanggan mengajukan pertanyaan yang umum dan ChatGPT memberikan jawaban yang sesuai.
-   - **Lakukan simulasi percakapan** dengan mengintegrasikan ChatGPT dalam sebuah aplikasi atau website bisnis.
-
-### **B. ChatGPT untuk Menulis Konten Pemasaran**
+### **A. ChatGPT untuk Menulis Konten Pemasaran**
 
 1. **Menghasilkan Konten Promosi**
    - ChatGPT bisa digunakan untuk menulis email pemasaran, artikel blog, deskripsi produk, dan banyak lagi.
@@ -159,7 +141,7 @@ Dalam konteks bisnis, **ChatGPT** dapat dimanfaatkan untuk berbagai keperluan, m
    - **Minta ChatGPT untuk menulis artikel pemasaran** atau deskripsi produk berdasarkan parameter yang ditentukan.
    - **Tulis email pemasaran otomatis** untuk promosi produk atau layanan.
 
-### **C. ChatGPT untuk Analisis Data Teks**
+### **B. ChatGPT untuk Analisis Data Teks**
 
 1. **Menganalisis Ulasan Pelanggan**
    - ChatGPT dapat digunakan untuk menganalisis ulasan pelanggan dan memberikan sentimen (positif, netral, negatif) terhadap produk atau layanan.
@@ -175,7 +157,7 @@ Dalam konteks bisnis, **ChatGPT** dapat dimanfaatkan untuk berbagai keperluan, m
    - **Berikan ChatGPT dataset berupa teks** (misalnya, ulasan produk atau laporan) dan minta untuk menganalisis atau merangkum informasi penting.
    - **Lakukan analisis sentimen** pada beberapa ulasan pelanggan untuk memahami persepsi umum terhadap bisnis.
 
-### **D. ChatGPT untuk Membantu Pengambilan Keputusan Bisnis**
+### **C. ChatGPT untuk Membantu Pengambilan Keputusan Bisnis**
 
 1. **Menghasilkan Wawasan dari Data Bisnis**
    - ChatGPT bisa digunakan untuk mengolah dan menyarikan wawasan dari data teks, seperti feedback pelanggan, laporan keuangan, atau data pasar.
