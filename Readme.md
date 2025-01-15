@@ -30,8 +30,8 @@ Memahami bagaimana AI membantu dalam memproses dan menganalisis data untuk membu
 - Visualisasi data menggunakan AI
 
 **Praktik:**
-- **Alat:** [Google Cloud AutoML](https://cloud.google.com/automl)
-  - Pandu peserta untuk mengunggah dataset contoh dan melatih model AutoML untuk analisis prediktif (misalnya, perkiraan penjualan).
+- **Alat:** [Qlik Analytics](https://www.qlik.com/us)
+  - Mengunggah dataset contoh dan melatih model AutoML untuk analisis prediktif (misalnya, perkiraan penjualan).
   
 ---
 
@@ -47,40 +47,7 @@ Mengeksplorasi bagaimana AI dapat mengotomatisasi tugas-tugas rutin, meningkatka
 
 **Praktik:**
 - **Alat:** [Zapier](https://zapier.com/)
-  - Pandu peserta untuk mengotomatisasi tugas seperti menyinkronkan prospek antara CRM dan alat pemasaran email menggunakan otomatisasi berbasis AI di Zapier.
+  - Membuat otomatisasi tugas seperti menyinkronkan prospek antara CRM dan alat pemasaran email menggunakan otomatisasi berbasis AI di Zapier.
 
----
-
-### **Modul 4: AI untuk Penjualan dan Generasi Prospek**
-
-**Tujuan:**  
-Memahami bagaimana AI dapat meningkatkan proses penjualan, meningkatkan generasi prospek, dan membantu mengonversi prospek menjadi pelanggan.
-
-#### **Topik yang Dibahas:**
-- AI dalam perkiraan penjualan
-- Penilaian dan kualifikasi prospek berbasis AI
-- Personalisasi proses penjualan menggunakan AI
-
-**Praktik:**
-- **Alat:** [InsideSales](https://www.insidesales.com/)
-  - Menggunakan analitik penjualan berbasis AI untuk memprediksi waktu terbaik untuk menghubungi prospek.
-
----
-
-### **Modul 5: AI untuk Sumber Daya Manusia dan Produktivitas Karyawan**
-
-**Tujuan:**  
-Memahami bagaimana AI dapat meningkatkan proses HR, termasuk perekrutan, keterlibatan karyawan, dan manajemen kinerja.
-
-#### **Topik yang Dibahas:**
-- AI dalam perekrutan: penyaringan resume dan otomatisasi wawancara
-- Alat produktivitas karyawan yang didorong oleh AI
-- AI untuk analitik kinerja
-
-**Praktik:**
-- **Alat:** [HireVue](https://www.hirevue.com/)
-  - Membuat proses wawancara video berbasis AI, di mana peserta mensimulasikan peran sebagai perekrut dan menganalisis wawasan yang dihasilkan oleh AI dari respons kandidat.
-
----
 
 Modul ini menggabungkan teori dengan pengalaman langsung menggunakan beberapa alat AI yang paling relevan dan mudah diakses yang tersedia secara online. Peserta akan mendapatkan pemahaman yang komprehensif tentang bagaimana AI dapat mendorong inovasi bisnis di berbagai sektor. Jangan ragu untuk memberi tahu saya jika Anda memerlukan penyesuaian atau detail lebih lanjut!

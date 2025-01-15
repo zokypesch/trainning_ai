@@ -31,69 +31,106 @@ Ada berbagai alat berbasis AI yang dapat digunakan untuk analisis data dan penga
 
 ---
 
-### **Tutorial Praktik: Menggunakan Google Cloud AutoML untuk Analisis Data**
+### **Praktik AI untuk Analisis Data dan Pengambilan Keputusan Menggunakan Qlik Analytics**
 
-**Tujuan:**  
-Membimbing peserta untuk menggunakan Google Cloud AutoML untuk membangun model pembelajaran mesin yang dapat digunakan untuk analisis prediktif, seperti peramalan penjualan atau klasifikasi pelanggan.
+**Pengenalan Qlik Analytics:**
+**Qlik Analytics** adalah platform analitik data yang memungkinkan pengguna untuk menggabungkan kecerdasan bisnis (BI) dan kecerdasan buatan (AI) dalam satu alat. Platform ini memanfaatkan teknologi visualisasi data yang kuat, kemampuan analitik, dan pengolahan data yang mendalam untuk memberi wawasan yang dapat mendukung pengambilan keputusan yang lebih baik.
 
-#### **Langkah 1: Mendaftar di Google Cloud Platform**
-1. **Mendaftar Akun Google Cloud:**
-   - Buka situs [Google Cloud Platform](https://cloud.google.com/).
-   - Daftar untuk akun jika Anda belum memilikinya. Google menawarkan kredit gratis untuk pengguna baru.
-
-2. **Aktifkan API Google AutoML:**
-   - Setelah masuk, buka **Google Cloud Console**.
-   - Pilih atau buat project baru.
-   - Pergi ke **API & Layanan** dan aktifkan **AutoML API**.
-
-#### **Langkah 2: Menyiapkan Dataset**
-1. **Siapkan Dataset:**
-   - Siapkan dataset yang akan digunakan dalam proyek AI Anda. Misalnya, dataset penjualan produk, data pelanggan, atau data keuangan.
-   - Dataset harus dalam format CSV atau file Excel dengan kolom yang sesuai untuk analisis. Pastikan Anda memiliki kolom untuk fitur (misalnya, harga, kategori produk) dan kolom target (misalnya, label atau nilai yang ingin diprediksi).
-
-2. **Upload Data ke Google Cloud Storage:**
-   - Upload dataset ke **Google Cloud Storage**. Ini dapat dilakukan melalui **Cloud Console** atau dengan menggunakan Google Cloud SDK.
-   - Pastikan dataset berada di dalam **bucket storage** yang telah dibuat di Google Cloud.
-
-#### **Langkah 3: Membuat Model AutoML**
-1. **Buka AutoML:**
-   - Masuk ke **AI & Machine Learning** di Google Cloud Console, kemudian pilih **AutoML**.
-   - Pilih jenis model yang ingin Anda buat (misalnya, **AutoML Tables** untuk analisis data tabular seperti dataset penjualan).
-
-2. **Membuat Dataset AutoML:**
-   - Klik **Create Dataset** dan pilih dataset yang telah diupload ke Google Cloud Storage.
-   - Google Cloud akan memproses data Anda dan mempersiapkannya untuk model pembelajaran mesin. Pastikan untuk memeriksa dan mengonfirmasi jenis data setiap kolom (misalnya, apakah itu kolom numerik atau kategori).
-
-3. **Membangun Model:**
-   - Setelah dataset disiapkan, klik **Train Model**.
-   - Google Cloud AutoML akan memulai proses pelatihan model secara otomatis dengan menggunakan algoritma pembelajaran mesin terbaik berdasarkan data yang tersedia.
-   - Selama pelatihan, platform akan mengoptimalkan parameter model untuk mencapai hasil yang optimal.
-
-#### **Langkah 4: Menilai Model**
-1. **Evaluasi Model:**
-   - Setelah model selesai dilatih, Google Cloud AutoML akan menampilkan metrik evaluasi seperti **Akurasi**, **Precision**, **Recall**, dan **F1 Score**. Metrik ini digunakan untuk menilai seberapa baik model dalam memprediksi data baru.
-   - Jika hasilnya memuaskan, model siap untuk digunakan. Jika tidak, Anda dapat melakukan tuning lebih lanjut atau memberikan lebih banyak data.
-
-#### **Langkah 5: Menggunakan Model untuk Prediksi**
-1. **Prediksi dengan Model:**
-   - Setelah model berhasil dilatih dan dievaluasi, Anda dapat menggunakannya untuk memprediksi data baru. Misalnya, jika model Anda untuk peramalan penjualan, Anda dapat menginputkan data baru dan model akan memberikan prediksi penjualan berdasarkan data tersebut.
-   - Pilih **Predict** di Google Cloud AutoML dan unggah data baru yang ingin Anda prediksi.
-
-2. **Download Model dan Implementasi:**
-   - Jika Anda ingin mengintegrasikan model ke dalam aplikasi atau sistem lain, Anda dapat mengunduh model yang telah dilatih dan mengimplementasikannya menggunakan API Google Cloud.
+Qlik Sense, bagian dari Qlik Analytics, memadukan **AI** dengan **visualisasi interaktif** untuk memberikan pemahaman yang lebih dalam tentang data. Dalam tutorial ini, kita akan melihat bagaimana Qlik Analytics digunakan untuk **analisis data** dan **pengambilan keputusan** berbasis wawasan yang didapat melalui analisis tersebut.
 
 ---
 
-#### **4. Manfaat Penggunaan AI untuk Pengambilan Keputusan**
+### **1. Apa Itu Qlik Analytics?**
 
-- **Analisis yang Lebih Cepat dan Akurat:** AI memungkinkan perusahaan untuk memproses data dalam jumlah besar dan dengan cepat memberikan hasil yang lebih akurat daripada metode tradisional.
-- **Pengambilan Keputusan Berbasis Data:** Dengan menggunakan model pembelajaran mesin, pengambilan keputusan menjadi lebih berbasis data daripada intuisi atau pengalaman semata.
-- **Prediksi yang Lebih Baik:** AI memungkinkan perusahaan untuk memprediksi tren dan perilaku di masa depan, seperti memprediksi permintaan pasar atau kecenderungan perilaku pelanggan, yang mendukung perencanaan yang lebih baik.
+Qlik Analytics menggunakan platform berbasis data yang mendalam untuk memungkinkan pengguna:
+- Mengintegrasikan dan menganalisis data dari berbagai sumber.
+- Menggunakan **AI** untuk mengidentifikasi pola yang sebelumnya sulit terlihat.
+- Menerapkan analitik visual dan **machine learning** untuk menghasilkan keputusan berbasis data yang lebih tepat.
+
+Dengan menggunakan Qlik Sense, pengguna dapat dengan mudah:
+- Membangun **dashboard interaktif** untuk eksplorasi data.
+- Menggunakan **AI insights** untuk mendapatkan rekomendasi otomatis terkait keputusan bisnis.
+- Menganalisis **data historis** untuk membuat prediksi yang lebih akurat untuk masa depan.
 
 ---
 
-#### **5. Kesimpulan**
+### **2. Langkah-langkah Praktik Menggunakan Qlik Analytics**
 
-AI untuk analisis data dan pengambilan keputusan memberikan banyak keuntungan bagi bisnis. Dengan alat seperti **Google Cloud AutoML**, bahkan perusahaan yang tidak memiliki tim data scientist yang besar dapat memanfaatkan teknologi pembelajaran mesin untuk meningkatkan efisiensi operasional dan mendukung keputusan strategis berbasis data.
+#### **Langkah 1: Persiapan Data untuk Analisis**
 
-Melalui tutorial ini, peserta belajar untuk membangun dan mengimplementasikan model analisis data dengan menggunakan Google Cloud AutoML, serta bagaimana AI dapat digunakan untuk membuat keputusan yang lebih akurat dan berbasis bukti.
+Sebelum menggunakan Qlik Analytics untuk analisis data, Anda perlu mengunggah data yang akan dianalisis ke dalam platform. Qlik Sense mendukung berbagai format data, termasuk **CSV**, **Excel**, **SQL databases**, dan lainnya.
+
+Misalnya, jika Anda memiliki **data penjualan** yang berisi informasi seperti **produk**, **jumlah terjual**, **pendapatan**, **lokasi**, dan **waktu transaksi**, Anda bisa mengunggah data tersebut ke Qlik Analytics.
+
+**Contoh:**
+- **Data Penjualan (CSV)**
+  - **Full Name**
+  - **Email**
+  - **Phone Number**
+  - **City**
+  - **Insurance Type**
+  - **Status**
+  - **Lead Source**
+  - **Followup Date**
+  - **Created At**
+
+#### **Langkah 2: Membuat Dashboard Interaktif**
+
+Setelah data diunggah ke dalam Qlik Sense, langkah berikutnya adalah membuat dashboard interaktif untuk visualisasi data. Dashboard ini memungkinkan pengguna untuk melihat **pola-pola** atau **tren** yang mungkin tidak terlihat dengan hanya melihat angka.
+
+1. **Pilih Data Sumber:**
+   Pilih dataset yang telah diunggah ke dalam Qlik Sense. Anda bisa memilih data penjualan yang telah disebutkan sebelumnya.
+
+2. **Tambahkan Visualisasi:**
+   Qlik Sense menawarkan berbagai pilihan visualisasi, seperti:
+   - **Grafik Batang** untuk membandingkan jumlah penjualan antar produk.
+   - **Grafik Garis** untuk memantau perubahan penjualan dari waktu ke waktu.
+   - **Peta Geografis** untuk menunjukkan tren penjualan berdasarkan lokasi atau kota.
+
+3. **Interaktifitas:**
+   Qlik Sense memungkinkan pengguna untuk berinteraksi langsung dengan dashboard, memilih periode waktu tertentu, atau menyaring data berdasarkan produk dan lokasi, untuk mendapatkan wawasan yang lebih dalam.
+
+#### **Langkah 3: Menggunakan AI untuk Menemukan Wawasan**
+
+Qlik Sense memiliki kemampuan AI yang disebut **Insight Advisor**. Insight Advisor membantu pengguna menemukan pola atau wawasan yang tidak terlihat secara langsung dengan menggunakan **machine learning** dan analisis otomatis.
+
+1. **Aktifkan Insight Advisor:**
+   Setelah membuat dashboard, aktifkan **Insight Advisor** di Qlik Sense. Platform ini akan secara otomatis menganalisis data yang ada dan memberi rekomendasi terkait wawasan yang perlu Anda pertimbangkan.
+
+2. **Mencari Pola dan Tren:**
+   Insight Advisor akan memberikan **rekomendasi** berdasarkan analisis data yang lebih mendalam. Misalnya, Insight Advisor dapat memberi tahu Anda bahwa produk tertentu memiliki tren penjualan yang lebih baik di kota tertentu atau menunjukkan bahwa penjualan cenderung meningkat selama waktu tertentu (misalnya, musim liburan).
+
+3. **Penggunaan AI untuk Prediksi:**
+   Insight Advisor dapat membantu memprediksi tren masa depan berdasarkan data historis. Misalnya, jika Anda ingin memprediksi penjualan untuk kuartal berikutnya, Insight Advisor dapat memberikan model prediktif yang berdasarkan tren sebelumnya.
+
+#### **Langkah 4: Membuat Keputusan Bisnis Berdasarkan Wawasan**
+
+Setelah Qlik Analytics memberikan wawasan berbasis AI, langkah selanjutnya adalah menggunakan informasi tersebut untuk membuat keputusan bisnis yang lebih baik.
+
+1. **Analisis Prediktif untuk Perencanaan Produksi:**
+   Jika Insight Advisor menunjukkan bahwa produk A selalu terjual lebih baik pada bulan Desember, Anda bisa merencanakan produksi lebih banyak produk A beberapa bulan sebelumnya untuk memenuhi permintaan yang lebih tinggi.
+
+2. **Optimasi Pemasaran:**
+   Jika analisis menunjukkan bahwa penjualan di kota tertentu lebih tinggi daripada di kota lain, Anda bisa memfokuskan kampanye pemasaran di kota dengan performa yang lebih rendah untuk meningkatkan penjualan.
+
+3. **Keputusan Inventaris:**
+   Berdasarkan analisis tren penjualan, Anda bisa menyesuaikan **stok produk** agar sesuai dengan prediksi penjualan untuk bulan mendatang.
+
+4. **Penyusunan Anggaran dan Proyeksi Keuangan:**
+   Dengan menganalisis pendapatan dan pengeluaran historis, Qlik Sense dapat memberikan wawasan untuk membantu Anda menyusun anggaran dan proyeksi keuangan yang lebih akurat.
+
+---
+
+### **3. Manfaat Menggunakan Qlik Analytics untuk Pengambilan Keputusan**
+
+- **Pengambilan Keputusan Berdasarkan Data:** Qlik Sense memberikan wawasan yang lebih baik dan lebih cepat, memungkinkan pengambilan keputusan yang lebih informasional.
+- **Kecerdasan Buatan untuk Analisis yang Lebih Dalam:** AI yang diterapkan pada platform ini memungkinkan analisis yang lebih mendalam dan identifikasi pola tersembunyi yang mungkin terlewatkan dalam analisis manual.
+- **Visualisasi Interaktif:** Membantu dalam pemahaman data yang lebih cepat dan efektif dengan visualisasi yang mudah dipahami.
+- **Prediksi dan Perencanaan Masa Depan:** Dengan kemampuan prediktif, Qlik Analytics dapat membantu Anda merencanakan strategi bisnis jangka panjang.
+- **Kolaborasi Tim yang Lebih Baik:** Fitur berbagi dan kolaborasi memungkinkan tim untuk bekerja bersama dalam menganalisis dan membuat keputusan.
+
+---
+
+### **4. Kesimpulan**
+
+Qlik Analytics, khususnya **Qlik Sense**, memungkinkan perusahaan untuk memanfaatkan AI dalam **analisis data** dan **pengambilan keputusan** yang lebih efisien. Dengan fitur **Insight Advisor** dan kemampuan visualisasi interaktif, Qlik Sense menawarkan solusi yang kuat bagi perusahaan yang ingin meningkatkan keputusan berbasis data. Dengan mengikuti tutorial ini, Anda dapat mulai menggunakan **AI untuk analisis data** dalam bisnis dan membuat keputusan yang lebih baik dan lebih informatif.
